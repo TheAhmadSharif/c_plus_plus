@@ -1,0 +1,8 @@
+g++ name.cpp
+
+
+std::cout (which stands for “character output”) 
+Line 1 is a special type of line called a preprocessor directive.
+
+
+Instantiation is a fancy word that means the object will be created and assigned a memory address. Variables must be instantiated before they can be used to store values.
