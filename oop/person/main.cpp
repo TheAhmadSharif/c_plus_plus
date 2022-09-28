@@ -1,9 +1,9 @@
-#include "person.hh"
 #include <iostream>
+#include "Person.h" 
 
 using namespace std;
 
 int main() {
-    Person pal("Matt", 18);
-    pal.print();
+    Person p1("Matt");
+    p1.print();
 }

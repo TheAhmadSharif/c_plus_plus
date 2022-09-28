@@ -1,0 +1,14 @@
+&variable name >> Prints variable memory location.
+
+
+& symobol is used to get the address of the variable.
+
+
+
+Why do we user pointer
+
+
+We use pointers because it's easier to give someone an address to your home than to give a copy of your home to everyone.
+
+
+Because copying big objects all over the places wastes time and memory.
