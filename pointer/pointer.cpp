@@ -21,5 +21,17 @@ int main() {
 	cout << ptr << "\n";
 
 
+	cout << "________________ \n";
+
+	int d = 10;
+	int *p;
+	p = &d;
+
+	*p = 60;
+	cout << p << "\n";
+	cout << d << "\n";
+	cout << *p << "\n";
+
+
 	return 0;
 }
