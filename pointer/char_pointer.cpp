@@ -9,11 +9,7 @@ int main() {
 	cout << "_________________\n";
 
 	cout << *arr << "\n";
-	cout << "_________________\n";
-	double arr_pointer[10];
-	double* pointer = arr_pointer;
-	cout << arr_pointer << "\n";
-	cout << pointer << "\n";
+
 
 	return 0;
 }

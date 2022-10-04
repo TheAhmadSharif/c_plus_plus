@@ -52,3 +52,12 @@ Execution of a loop terminates, when the given condition becomes false. C++ othe
 
 In C++, if you need to define a function that does not return any value (it is often called subroutine or subprogram), you can do it by using a special data type called void:
 
+
+
+
+—————————————————————————————
+Project idea
+—————————————————————————————
+File compression program
+Encryption software
+

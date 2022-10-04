@@ -33,5 +33,24 @@ int main() {
 	cout << *p << "\n";
 
 
+	cout << "________________ \n";
+
+	int number = 200;
+	int* num_pointer  = &number; // & ampersand
+
+	cout << num_pointer << "\n";
+
+
+	cout << "________________ \n";
+
+	double number_2 = 13.5;
+	// num_pointer = &number_2; We can not reassign int to doulb vlaue.
+
+
+	bool* p_bool; 
+	char* p_char; 
+	int* p_int; 
+
+
 	return 0;
 }
