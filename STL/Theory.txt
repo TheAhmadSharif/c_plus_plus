@@ -69,3 +69,16 @@ int i = 42;
 could also be written like as
 
 auto i = 42;
+
+
+
+———————————————————————————————————————————
+Difference Between Vector and List
+———————————————————————————————————————————
+contiguous = when you want to describe one thing touching another thing, or next to it but not actually touching.
+
+
+Vector is a type of dynamic array which has the ability to resize automatically after insertion or deletion of elements. The elements in vector are placed in contiguous storage so that they can be accessed and traversed using iterators. Element is inserted at the end of the vector.
+
+
+List is a double linked sequence that supports both forward and backward traversal. The time taken in the insertion and deletion in the beginning, end and middle is constant. It has the non-contiguous memory and there is no pre-allocated memory.
