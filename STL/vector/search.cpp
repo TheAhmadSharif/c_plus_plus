@@ -22,23 +22,22 @@
 using namespace std;
 
 
-using namespace std;
 
 int main() {
-
-	std::unordered_map<string, string> _train_list = {};
-	 _train_list.insert({ "tukutuku", "tpe" });
-	//_train_list.insert({ 2, 30 });
+	vector <int> v{2, 4, 8, 10};
+	v.push_back(1);
 
 
+	
+	   vector<int> target;
+	   copy_if(v.begin(), v.end(), back_inserter(target),[](float n ){ return  n > 5;});
+		   for (auto i = target.begin(); i != target.end(); i++) {
+		    cout << *i << endl;
+		}
 
-	std::string a = "tpe:0900";
-	string train = a.substr(0,3);
-	string time = a.substr(4,8);
 
-	cout << train << "\n";
-	cout << time << "\n";
-	 
+	
+
 	return 0;
 }
 
